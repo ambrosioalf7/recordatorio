@@ -4,7 +4,7 @@ function verificarRecordatorioPorURL() {
     var agenciasDeudoras = [
         {
             urlMatch: "crm.lig01.com/agency_launchpad", 
-            fechaBloqueo: "2026-10-05" // Formato AAAA-MM-DD. Aparecerá a partir de este día.
+            fechaBloqueo: "2026-10-01" // Formato AAAA-MM-DD. Aparecerá a partir de este día.
         }
     ];
 
@@ -51,10 +51,9 @@ function verificarRecordatorioPorURL() {
                             <path d="M12 9v4"/><path d="M12 17h.01"/>
                         </svg>
                     </div>
-                    <h2>Ограниченный доступ при первом входе</h2>
-                    <p class="descripcion">Ваш доступ к системе временно приостановлен из-за наличия задолженности. Для возобновления обслуживания, пожалуйста, внесите соответствующий платеж.</p>
-                    <p class="mensaje-footer">Это будет повторяться снова и снова.
-Вы уже знаете, где платить...</p>
+                    <h2>Acceso Restringido</h2>
+                    <p class="descripcion">Tu acceso al sistema ha sido suspendido temporalmente por un saldo pendiente. Para restaurar el servicio, por favor regulariza tu pago correspondiente.</p>
+                    <p class="mensaje-footer">Notifícanos al realizar el pago para reactivar tu cuenta de inmediato.</p>
                 </div>
             </div>
         `;
