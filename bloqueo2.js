@@ -4,7 +4,7 @@ function verificarRecordatorioPorURL() {
     var agenciasDeudoras = [
         {
             urlMatch: "crm.lig01.com/agency_launchpad", 
-            fechaBloqueo: "2026-10-05" // Formato AAAA-MM-DD. Aparecerá a partir de este día.
+            fechaBloqueo: "2026-10-01" // Formato AAAA-MM-DD. Aparecerá a partir de este día.
         }
     ];
 
